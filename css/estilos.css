@@ -1,0 +1,143 @@
+
+body{
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(12, 88, 252));
+}
+.container{
+    width: 100%;
+    display: inline-flex;
+   
+}
+.contenedor{
+    width: 65%;
+    height: 548px;;
+    background-image: url(../img/Encriptar-datos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    opacity: 0.8;
+    text-align: center;
+    border:  solid rgb(11, 149, 204) 4px;
+    border-radius:  10px;
+}
+input{
+    width: 90%;
+    height: 48px;
+    display: inline-block;
+    
+    margin-bottom: 47%;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+.textarea{
+    width: 30%;
+    height:548px; 
+    background-image: url(../img/Encriptar-datos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    margin: auto;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(201, 198, 198);
+    border:  solid rgb(11, 149, 204) 4px;
+    border-radius:  10px;
+  
+}
+textarea{
+    width: 99%;
+    height:468px; 
+    background-color: transparent;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(201, 198, 198);
+   
+}
+.encriptar{
+    width: 40%;
+    height: 67px;
+    background: #0A3871;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.desencriptar{
+    width: 40%;
+    height: 67px;
+    background: #D8DFE8;
+    margin: auto;
+    align-items: flex-start;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.copiar{
+    width: 90%;
+    height: 67px;
+    background: #0A3871;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.error{
+    position: absolute;
+    background-color: rgb(248, 77, 77);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -200px;
+   
+}
+footer {
+    width: 100%;
+    height: 5vh;
+    
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    img{
+        margin-left: 33%;
+    }
+    .container{
+        display: block;
+        
+    }
+    .contenedor{
+        width: 100%;
+        height: 310px;
+    }
+    .textarea{
+        width: 100%;
+        height: 400px;
+    }
+    textarea{
+        width: 100%;
+        height: 320px;
+    }
+    input{
+       
+        margin-right:  auto ;
+    }
+  }
